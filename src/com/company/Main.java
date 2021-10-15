@@ -6,7 +6,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.print("Input your first integer : ");
         int x = in.nextInt();
-        System.out.print("Input the second number: ");
+        System.out.print("Input the second integer: ");
         int y = in.nextInt();
         int z = sum(x,y);
         System.out.print("Your initial sum of two integers is: " + z);
